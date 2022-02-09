@@ -39,3 +39,20 @@ buttonSubmit.addEventListener("click", function(){
         alert("non sei autorizzato a proseguire")
     }
 })
+
+
+// esercizio 2 dadi
+
+// creo i due numeri random
+
+const number1 = Math.floor(Math.random()*6+1);
+console.log("number1",number1);
+
+const number2 = Math.floor(Math.random()*6+1);
+console.log("number2", number2);
+
+const listaLanci = document.getElementById(lanci);
+const li = document.createElement("li");
+
+console.log(li);
+
