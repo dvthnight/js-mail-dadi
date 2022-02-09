@@ -51,8 +51,11 @@ console.log("number1",number1);
 const number2 = Math.floor(Math.random()*6+1);
 console.log("number2", number2);
 
-const listaLanci = document.getElementById(lanci);
-const li = document.createElement("li");
+const lancioUtente = document.getElementById("lancio-utente");
+const lancioComputer = document.getElementById("lancio-computer");
 
-console.log(li);
+lancioUtente.append(number1);
+lancioComputer.append(number2);
+
+
 
