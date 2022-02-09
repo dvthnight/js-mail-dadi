@@ -57,5 +57,15 @@ const lancioComputer = document.getElementById("lancio-computer");
 lancioUtente.append(number1);
 lancioComputer.append(number2);
 
+const giudiceGara = document.getElementById("giudice_gara");
+
+if(number1<number2){
+    giudiceGara.append ("Il Computer ha vinto");
+} else if(number2<number1){
+    giudiceGara.append ("L'utente ha vinto");
+} else {
+    giudiceGara.append ("Assoluta parità non ha vinto nessuno");
+}
+
 
 
