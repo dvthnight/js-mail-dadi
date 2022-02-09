@@ -1,0 +1,12 @@
+.row{
+    display: flex;
+    text-align: center;
+}
+
+.col-6{
+    width: 50%;
+}
+
+#giudice_gara{
+    text-align: center;
+}
